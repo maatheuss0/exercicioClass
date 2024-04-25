@@ -15,3 +15,8 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+#botoes input:hover {
+  background-color: #d6d2d2; 
+  border-color: #000000; 
+}

@@ -60,24 +60,20 @@
     <!--Fim Botão 08-->
 
     <!-- Botão 09 - -->
-    <input type="button" value="X" />
+    <input type="button" value="Esconder DIV" onclick="EsconderDIV()" />
     <!--Fim Botão 09-->
 
     <!-- Botão 10 - -->
-    <input type="button" value="X" />
-    <!--Fim Botão 10-->
-
-    <!-- Botão 10 - -->
-    <input type="button" value="X" />
-    <!--Fim Botão 10-->
-
-    <!-- Botão 10 - -->
-    <input type="button" value="X" />
+    <input type="button" value="Mostrar DIV" onclick="MostrarDIV()"/>
     <!--Fim Botão 10-->
 
     <!-- Botão 11 - -->
-    <input type="button" value="X" />
+    <input type="button" value="Nao" onclick="Nao()"/>
     <!--Fim Botão 11-->
+
+    <!-- Botão 12 - -->
+    <input type="button" value="X" />
+    <!--Fim Botão 12-->
 
     <!-- Botão 12 - -->
     <input type="button" value="X" />
@@ -98,6 +94,10 @@
     <!-- Botão 16 - -->
     <input type="button" value="X" />
     <!--Fim Botão 16-->
+
+    <!-- Botão 17 - -->
+    <input type="button" value="X" />
+    <!--Fim Botão 17-->
 
   </div>
 
@@ -144,25 +144,25 @@
 
     // Botão 08 - xx
     function RemoveBorder() {
-      document.getElementById('manipula').style.border = "0px "
+      document.getElementById('manipula').style.border = "0px"
     }
     //fim do Botão 08
 
     // Botão 09 - xx
-    function x() {
-
+    function EsconderDIV() {
+      document.getElementById('manipula').style.display = "none"
     }
     //fim do Botão 09
 
     // Botão 10 - xx
-    function x() {
-
+    function MostrarDIV() {
+      document.getElementById('manipula').style.display = "block"
     }
     //fim do Botão 10
 
     // Botão 11 - xx
-    function x() {
-
+    function Nao() {
+      document.getElementsByClassName('chamada')[0].innerHTML = 'Neste Botao NAO'
     }
     //fim do Botão 11
 
